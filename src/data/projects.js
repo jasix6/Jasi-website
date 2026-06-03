@@ -1,0 +1,43 @@
+const projects = [
+  {
+    slug: 'project-alpha',
+    title: 'Project Alpha',
+    description: 'A sleek task management app built with SwiftUI, featuring drag-and-drop kanban boards and real-time sync.',
+    longDescription: 'Full description coming soon. This project showcases modern SwiftUI patterns, Core Data integration, and CloudKit sync.',
+    tags: ['Swift', 'SwiftUI', 'Core Data'],
+    thumbnail: null,
+    images: [],
+    github: 'https://github.com/jasix6',
+    demo: null,
+    featured: true,
+    year: 2025,
+  },
+  {
+    slug: 'project-beta',
+    title: 'Project Beta',
+    description: 'A minimalist Markdown editor for macOS with live preview, syntax highlighting, and iCloud sync.',
+    longDescription: 'Full description coming soon.',
+    tags: ['Swift', 'AppKit', 'Markdown'],
+    thumbnail: null,
+    images: [],
+    github: 'https://github.com/jasix6',
+    demo: null,
+    featured: true,
+    year: 2025,
+  },
+  {
+    slug: 'project-gamma',
+    title: 'Project Gamma',
+    description: 'A CLI tool for automating macOS developer environment setup — brew, mas, dotfiles, all in one YAML config.',
+    longDescription: 'Full description coming soon.',
+    tags: ['Python', 'CLI', 'DevOps'],
+    thumbnail: null,
+    images: [],
+    github: 'https://github.com/jasix6',
+    demo: null,
+    featured: true,
+    year: 2024,
+  },
+]
+
+export default projects

@@ -1,0 +1,33 @@
+.projects-page {
+  padding: var(--space-4xl) var(--space-xl);
+}
+
+.projects-page__header {
+  margin-bottom: var(--space-3xl);
+}
+
+.projects-page__title {
+  margin-bottom: var(--space-md);
+}
+
+.projects-page__subtitle {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+}
+
+.projects-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--space-xl);
+}
+
+@media (max-width: 768px) {
+  .projects-page {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+
+  .projects-page__grid {
+    grid-template-columns: 1fr;
+  }
+}

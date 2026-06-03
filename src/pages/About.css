@@ -1,0 +1,119 @@
+.about {
+  padding: var(--space-4xl) var(--space-xl);
+}
+
+.about__hero {
+  margin-bottom: var(--space-4xl);
+}
+
+.about__title {
+  margin-bottom: var(--space-xl);
+}
+
+.about__intro {
+  font-size: 1.15rem;
+  max-width: 600px;
+  line-height: 1.8;
+}
+
+.about__skills {
+  margin-bottom: var(--space-4xl);
+}
+
+.about__section-heading {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: var(--space-2xl);
+}
+
+.about__skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-xl);
+}
+
+.about__skill-group {
+  padding: var(--space-xl);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--bg-secondary);
+}
+
+.about__skill-group h3 {
+  font-size: 1rem;
+  margin-bottom: var(--space-md);
+  color: var(--text-primary);
+}
+
+.about__skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.about__contact {
+  margin-bottom: var(--space-3xl);
+}
+
+.about__contact-inner {
+  padding: var(--space-3xl);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background: var(--bg-secondary);
+  max-width: 500px;
+}
+
+.about__contact-inner h2 {
+  margin-bottom: var(--space-sm);
+}
+
+.about__contact-inner p {
+  margin-bottom: var(--space-xl);
+}
+
+.about__contact-links {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.about__contact-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  transition: opacity var(--duration-fast) ease;
+}
+
+.about__contact-btn:hover {
+  opacity: 0.85;
+}
+
+.about__contact-btn--ghost {
+  background: transparent;
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+}
+
+.about__contact-btn--ghost:hover {
+  border-color: var(--text-muted);
+  color: var(--text-primary);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+
+  .about__skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
